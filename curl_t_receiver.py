@@ -1,3 +1,7 @@
+# Script para receber um arquivo pela rede.
+# O arquivo é enviado com o comando:
+# curl -T <file> http://<endereco_do_script>:8786
+
 import socket
 
 
